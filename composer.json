@@ -1,5 +1,5 @@
 {
-  "name": "salesmanagorl/yii2-salesmanago",
+  "name": "magicalella/yii2-salesmanago",
   "description": "Salesmanago component for Yii 2 framework",
   "type": "yii2-extension",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "salesmanagorl\\salesmanago\\": ""
+      "magicalella\\salesmanago\\": ""
     }
   }
 }
