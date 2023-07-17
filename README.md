@@ -30,7 +30,7 @@ Usage
 'components' => [
     // ...
     'salesmanago' => [
-        'class' => 'salesmanagorl\salesmanago\Salesmanago',
+        'class' => 'magicalella\salesmanago\Salesmanago',
         'clientId' => 'xxxxxx',
         'apiKey' => 'xxxxxx',
         'apiSecret' => 'xxxxxx',
