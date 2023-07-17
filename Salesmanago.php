@@ -8,7 +8,7 @@ use yii\base\InvalidConfigException;
 /**
  * Class Salesmanago
  * Salesmanago component
- * @package mrstroz\salesmanago
+ * @package magicalella\salesmanago
  *
  * @author Mariusz Stróż <info@inwave.pl>
  */
