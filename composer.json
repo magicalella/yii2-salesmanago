@@ -3,7 +3,7 @@
   "description": "Salesmanago component for Yii 2 framework",
   "type": "yii2-extension",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Raffaella Lollini",
