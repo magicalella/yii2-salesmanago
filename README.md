@@ -35,6 +35,7 @@ Usage
         'apiKey' => 'xxxxxx',
         'apiSecret' => 'xxxxxx',
         'endpoint' => 'xxxxxx',
+        'owner' => 'xxxxxx',
     ],
 ]
 ```
