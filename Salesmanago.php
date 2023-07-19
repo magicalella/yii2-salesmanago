@@ -35,6 +35,11 @@ class Salesmanago extends Component
      */
     public $endpoint;
 
+    /**
+     * @var string
+     */
+    public $owner;
+
 
     /**
      * @throws InvalidConfigException
@@ -72,6 +77,7 @@ class Salesmanago extends Component
             array(
                 'clientId' => $this->clientId,
                 'apiKey' => $this->apiKey,
+                'owner' => $this->owner,
                 'requestTime' => time(),
                 'sha' => sha1($this->apiKey . $this->clientId . $this->apiSecret),
             ),
