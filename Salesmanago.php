@@ -62,6 +62,10 @@ class Salesmanago extends Component
             throw new InvalidConfigException('$endpoint not set');
         }
 
+        if (!$this->owner) {
+            throw new InvalidConfigException('$owner not set');
+        }
+
         parent::init();
     }
 
