@@ -89,7 +89,7 @@ class Salesmanago extends Component
         );
 
         $json = json_encode($data);
-        $result = $this->curl('https://' . $this->endpoint . '/api/' . $call, $json);
+        $result = $this->curl($this->endpoint . '/api/' . $call, $json);
         return json_decode($result);
     }
 
